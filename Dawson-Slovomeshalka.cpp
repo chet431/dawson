@@ -38,22 +38,23 @@ int main()
 	cout << "Введите 'выход', чтобы закончить игру. \n\n";
 	cout << "Словомешалка : " << jumble;
 	string guess;
-	cout << "\n\nВаша попытка: ";
-	cin >> guess;
 
-	while ((guess != theWord) && (guess != "quit"))
+
+	do
 	{
+		cout << "\n\nВаша попытка: ";
+		cin >> guess;
 		if (guess == "hint") // ??
 		{
 			cout << theHint;
 		}
-		else
+		else if (guess != theWord)
 		{
 			cout << "Не верно!" << endl;
 		}
-		cout << "\nВаша попытка : ";
-		cin >> guess;
 	}
+	while (guess != theWord && guess != "quit");
+	
 
 	if (guess == theWord)
 	{
