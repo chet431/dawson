@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heros_inventory_v3", "heros_inventory_v3\heros_inventory_v3.vcxproj", "{F7C8C538-D8CC-417D-937E-32214FEAF688}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C8C538-D8CC-417D-937E-32214FEAF688}.Debug|x64.ActiveCfg = Debug|x64
+		{F7C8C538-D8CC-417D-937E-32214FEAF688}.Debug|x64.Build.0 = Debug|x64
+		{F7C8C538-D8CC-417D-937E-32214FEAF688}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7C8C538-D8CC-417D-937E-32214FEAF688}.Debug|x86.Build.0 = Debug|Win32
+		{F7C8C538-D8CC-417D-937E-32214FEAF688}.Release|x64.ActiveCfg = Release|x64
+		{F7C8C538-D8CC-417D-937E-32214FEAF688}.Release|x64.Build.0 = Release|x64
+		{F7C8C538-D8CC-417D-937E-32214FEAF688}.Release|x86.ActiveCfg = Release|Win32
+		{F7C8C538-D8CC-417D-937E-32214FEAF688}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59C518D7-5EBA-4743-B382-4603512BC5FD}
+	EndGlobalSection
+EndGlobal
